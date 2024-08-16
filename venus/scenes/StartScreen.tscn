@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://br2ursdvdwwjy"]
+
+[ext_resource type="Script" path="res://scripts/start screen/StartScreen.cs" id="1_iofwk"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 273.0
+offset_top = 257.0
+offset_right = 313.0
+offset_bottom = 297.0
+script = ExtResource("1_iofwk")
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.388
+anchor_top = 1.88
+anchor_right = 7.388
+anchor_bottom = 1.88
+offset_left = -140.02
+offset_top = -35.4811
+offset_right = 139.98
+offset_bottom = 35.5189
+text = "Start"
